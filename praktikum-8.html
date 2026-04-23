@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum 8</title>
+
+    <!-- Google Font biar keren -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Poppins', sans-serif;
+            transition: background 0.8s ease;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 40px;
+            font-weight: 600;
+        }
+
+        .tanggal {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .jam {
+            font-size: 50px;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="ucapan">Loading...</h1>
+        <div class="tanggal" id="tanggal"></div>
+        <div class="jam" id="jam"></div>
+    </div>
+
+    <script src="praktikum-8.js"></script>
+
+</body>
+</html>
